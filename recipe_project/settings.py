@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
-    'recipe_app',
+    'core',
     'user',
 ]
 
@@ -127,4 +127,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-AUTH_USER_MODEL = 'recipe_app.User'
+AUTH_USER_MODEL = 'core.User'
